@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(173, 170, 170);
+}
+
+.cuadro {
+  background-color: aliceblue;
+}
+
+.blanquito {
+  width: 57px;
+  height: 51px;
+  border-radius: 103px;
+}
+
+.text-container {
+  font-weight: 600;
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+}
+
+.texto-intro {
+  color: grey;
+  font-weight: 200;
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+}
+
+.parte-principal {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.textos {
+  display: flex;
+  flex-direction: column;
+  line-height: 22px;
+}
+
+.perrito {
+  margin-top: 16px;
+}
+
+.headline {
+  font-weight: 600;
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.shop-now {
+  font-weight: 600;
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+  background-color: rgb(185, 182, 182);
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 2px;
+}
+
+.zona-gris {
+  display: flex;
+  text-align: center;
+  gap: 158px;
+  background-color: rgb(219, 219, 219);
+}
+
+/* Estilos para los iconos de Material Design Icons */
+.mdi {
+  font-size: 24px;
+  color: #333;
+}
