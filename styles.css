@@ -8,9 +8,18 @@
 body {
   background-color: rgb(173, 170, 170);
 }
+.contenido {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
 .cuadro {
-  background-color: aliceblue;
+  border-radius: 15px;
+  width: 400px;
+  background-color: rgb(6, 83, 146);
+  padding: 30px 0px 15px 0px;
 }
 
 .blanquito {
@@ -31,6 +40,13 @@ body {
   font-family: Roboto, sans-serif;
   font-size: 15px;
 }
+.vertical-container {
+  margin-left: 16px;
+}
+
+.textos-2 {
+  margin-left: 16px;
+}
 
 .parte-principal {
   display: flex;
@@ -46,7 +62,9 @@ body {
 }
 
 .perrito {
-  margin-top: 16px;
+  display: block;
+  width: 100%;
+  margin-top: 15px;
 }
 
 .headline {
@@ -55,14 +73,16 @@ body {
   font-size: 15px;
   display: flex;
   align-items: center;
+  margin-left: 16px;
 }
 
 .shop-now {
   font-weight: 600;
   font-family: Roboto, sans-serif;
   font-size: 15px;
-  background-color: rgb(185, 182, 182);
-  padding: 10px;
+  background-color: rgb(161, 161, 161);
+  width: 100px;
+  height: 35px;
   border-radius: 4px;
   margin-top: 2px;
 }
@@ -70,12 +90,61 @@ body {
 .zona-gris {
   display: flex;
   text-align: center;
-  gap: 158px;
-  background-color: rgb(219, 219, 219);
+  align-items: center;
+  gap: 200px;
+  background-color: rgb(197, 194, 194);
+  height: 60px;
 }
 
 /* Estilos para los iconos de Material Design Icons */
 .mdi {
   font-size: 24px;
   color: #333;
+}
+
+.zona-reaccion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 16px 10px 12px;
+}
+
+.acciones {
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+  align-items: start;
+  text-align: center;
+}
+
+.reaccion {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.zona-interactiva {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 60px;
+  margin: 20px 16px 10px 12px;
+}
+
+.like {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.comment {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.share {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
