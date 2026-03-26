@@ -8,6 +8,7 @@
 body {
   background-color: rgb(173, 170, 170);
 }
+
 .contenido {
   display: flex;
   justify-content: center;
@@ -18,8 +19,8 @@ body {
 .cuadro {
   border-radius: 15px;
   width: 400px;
-  background-color: rgb(6, 83, 146);
-  padding: 30px 0px 15px 0px;
+  background-color: rgb(230, 232, 233);
+  padding: 30px 0px 10px 0px;
 }
 
 .blanquito {
@@ -40,6 +41,7 @@ body {
   font-family: Roboto, sans-serif;
   font-size: 15px;
 }
+
 .vertical-container {
   margin-left: 16px;
 }
@@ -80,11 +82,12 @@ body {
   font-weight: 600;
   font-family: Roboto, sans-serif;
   font-size: 15px;
-  background-color: rgb(161, 161, 161);
+  background-color: rgb(182, 181, 181);
   width: 100px;
   height: 35px;
   border-radius: 4px;
   margin-top: 2px;
+  cursor: pointer;
 }
 
 .zona-gris {
@@ -92,13 +95,13 @@ body {
   text-align: center;
   align-items: center;
   gap: 200px;
-  background-color: rgb(197, 194, 194);
+  background-color: rgb(209, 208, 208);
   height: 60px;
 }
 
 /* Estilos para los iconos de Material Design Icons */
 .mdi {
-  font-size: 24px;
+  font-size: 20px;
   color: #333;
 }
 
@@ -106,7 +109,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 10px 16px 10px 12px;
+  margin: 15px 16px 8px 12px;
+  font-weight: 500;
+  color: rgb(95, 93, 93);
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
 }
 
 .acciones {
@@ -123,28 +130,38 @@ body {
   gap: 5px;
 }
 
+.linea {
+  border-top: 1px solid rgb(173, 173, 173);
+  margin: 15px 0;
+}
+
 .zona-interactiva {
   display: flex;
   justify-content: space-around;
   align-items: center;
   gap: 60px;
-  margin: 20px 16px 10px 12px;
+  margin: 0px 16px 6px 12px;
+  font-weight: 500;
+  color: rgb(136, 131, 131);
 }
 
 .like {
   display: flex;
   align-items: center;
   gap: 5px;
+  cursor: pointer;
 }
 
 .comment {
   display: flex;
   align-items: center;
   gap: 5px;
+  cursor: pointer;
 }
 
 .share {
   display: flex;
   align-items: center;
   gap: 5px;
+  cursor: pointer;
 }
